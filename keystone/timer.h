@@ -22,8 +22,10 @@
 #endif
 
 
-#define RISCV_MTIMECMP_ADDR (0x2000000 + 0x4000)
-#define RISCV_MTIME_ADDR    (0x2000000 + 0xBFF8)
+//#define RISCV_MTIMECMP_ADDR (0x2000000 + 0x4000)
+//#define RISCV_MTIME_ADDR    (0x2000000 + 0xBFF8)
+#define RISCV_MTIMECMP_ADDR (0x18000000 + 0x4000)
+#define RISCV_MTIME_ADDR    (0x18000000 + 0xBFF8)
 
 #ifndef MTIME_FREQ_HZ
 // Timer for HiFive board
