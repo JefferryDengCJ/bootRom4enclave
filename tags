@@ -1,0 +1,1017 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_LEN_	src/testDDR.c	15;"	d	file:
+BUFFER_LEN_	testDDR.c	15;"	d	file:
+Bi	keystone/ed25519/precomp_data.h	/^static const ge_precomp Bi[8] = {$/;"	v
+CC	Makefile	/^CC = ${CROSSCOMPILE}gcc$/;"	m
+CCASFLAGS	Makefile	/^CCASFLAGS = -mcmodel=medany -mexplicit-relocs -fPIC$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -ggdb  -march=rv32im -mabi=ilp32 -W -Wall -mcmodel=medany -mexplicit-relocs -fno-builtin$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -ggdb -march=rv64gc -mabi=lp64 -Wall -mcmodel=medany -mexplicit-relocs -fno-builtin -fno-common -std=gnu11$/;"	m
+CLINT_CTRL_ADDR	src/smp.h	9;"	d
+CLINT_END_HART_IPI	src/smp.h	13;"	d
+CROSSCOMPILE	Makefile	/^CROSSCOMPILE ?= riscv64-unknown-elf-$/;"	m
+CSR_CLR_BITS_IMM_MCAUSE	src/riscv-csr.h	1030;"	d
+CSR_CLR_BITS_IMM_MCOUNTEREN	src/riscv-csr.h	861;"	d
+CSR_CLR_BITS_IMM_MCOUNTINHIBIT	src/riscv-csr.h	670;"	d
+CSR_CLR_BITS_IMM_MIE	src/riscv-csr.h	555;"	d
+CSR_CLR_BITS_IMM_MIP	src/riscv-csr.h	440;"	d
+CSR_CLR_BITS_IMM_MSTATUS	src/riscv-csr.h	176;"	d
+CSR_CLR_BITS_IMM_MTVEC	src/riscv-csr.h	305;"	d
+CSR_CLR_BITS_IMM_SCAUSE	src/riscv-csr.h	1191;"	d
+CSR_CLR_BITS_IMM_SIE	src/riscv-csr.h	1595;"	d
+CSR_CLR_BITS_IMM_SIP	src/riscv-csr.h	1496;"	d
+CSR_CLR_BITS_IMM_SSTATUS	src/riscv-csr.h	1274;"	d
+CSR_CLR_BITS_IMM_STVEC	src/riscv-csr.h	1361;"	d
+CSR_CLR_BITS_IMM_UCAUSE	src/riscv-csr.h	2003;"	d
+CSR_CLR_BITS_IMM_UIE	src/riscv-csr.h	1864;"	d
+CSR_CLR_BITS_IMM_UIP	src/riscv-csr.h	1777;"	d
+CSR_CLR_BITS_IMM_USTATUS	src/riscv-csr.h	1694;"	d
+CSR_CLR_BITS_IMM_UTVEC	src/riscv-csr.h	2086;"	d
+CSR_SET_BITS_IMM_MCAUSE	src/riscv-csr.h	1023;"	d
+CSR_SET_BITS_IMM_MCOUNTEREN	src/riscv-csr.h	854;"	d
+CSR_SET_BITS_IMM_MCOUNTINHIBIT	src/riscv-csr.h	663;"	d
+CSR_SET_BITS_IMM_MIE	src/riscv-csr.h	548;"	d
+CSR_SET_BITS_IMM_MIP	src/riscv-csr.h	433;"	d
+CSR_SET_BITS_IMM_MSTATUS	src/riscv-csr.h	169;"	d
+CSR_SET_BITS_IMM_MTVEC	src/riscv-csr.h	298;"	d
+CSR_SET_BITS_IMM_SCAUSE	src/riscv-csr.h	1184;"	d
+CSR_SET_BITS_IMM_SIE	src/riscv-csr.h	1588;"	d
+CSR_SET_BITS_IMM_SIP	src/riscv-csr.h	1489;"	d
+CSR_SET_BITS_IMM_SSTATUS	src/riscv-csr.h	1267;"	d
+CSR_SET_BITS_IMM_STVEC	src/riscv-csr.h	1354;"	d
+CSR_SET_BITS_IMM_UCAUSE	src/riscv-csr.h	1996;"	d
+CSR_SET_BITS_IMM_UIE	src/riscv-csr.h	1857;"	d
+CSR_SET_BITS_IMM_UIP	src/riscv-csr.h	1770;"	d
+CSR_SET_BITS_IMM_USTATUS	src/riscv-csr.h	1687;"	d
+CSR_SET_BITS_IMM_UTVEC	src/riscv-csr.h	2079;"	d
+CSR_WRITE_IMM_MCAUSE	src/riscv-csr.h	1016;"	d
+CSR_WRITE_IMM_MCOUNTEREN	src/riscv-csr.h	847;"	d
+CSR_WRITE_IMM_MCOUNTINHIBIT	src/riscv-csr.h	656;"	d
+CSR_WRITE_IMM_MIE	src/riscv-csr.h	541;"	d
+CSR_WRITE_IMM_MIP	src/riscv-csr.h	426;"	d
+CSR_WRITE_IMM_MSTATUS	src/riscv-csr.h	162;"	d
+CSR_WRITE_IMM_MTVEC	src/riscv-csr.h	291;"	d
+CSR_WRITE_IMM_SCAUSE	src/riscv-csr.h	1177;"	d
+CSR_WRITE_IMM_SIE	src/riscv-csr.h	1581;"	d
+CSR_WRITE_IMM_SIP	src/riscv-csr.h	1482;"	d
+CSR_WRITE_IMM_SSTATUS	src/riscv-csr.h	1260;"	d
+CSR_WRITE_IMM_STVEC	src/riscv-csr.h	1347;"	d
+CSR_WRITE_IMM_UCAUSE	src/riscv-csr.h	1989;"	d
+CSR_WRITE_IMM_UIE	src/riscv-csr.h	1850;"	d
+CSR_WRITE_IMM_UIP	src/riscv-csr.h	1763;"	d
+CSR_WRITE_IMM_USTATUS	src/riscv-csr.h	1680;"	d
+CSR_WRITE_IMM_UTVEC	src/riscv-csr.h	2072;"	d
+DRAM_BASE	keystone/bootloader.S	/^#define DRAM_BASE     0x80000000$/;"	d
+DRAM_BASE	keystone/bootloader.c	46;"	d	file:
+DRAM_BASE	platform.h	1;"	d
+DRAM_BASE	startup.S	/^#define DRAM_BASE 0x80000000$/;"	d
+DRAM_SIZE	platform.h	2;"	d
+DTB	Makefile	/^DTB = cv$(XLEN)a6.dtb$/;"	m
+DTB	keystone/bootloader.S	/^#define DTB   0$/;"	d
+ED25519_DECLSPEC	keystone/ed25519/ed25519.h	10;"	d
+ED25519_DECLSPEC	keystone/ed25519/ed25519.h	12;"	d
+ED25519_DECLSPEC	keystone/ed25519/ed25519.h	15;"	d
+ED25519_DECLSPEC	keystone/ed25519/ed25519.h	8;"	d
+ED25519_H	keystone/ed25519/ed25519.h	2;"	d
+ED25519_NO_SEED	keystone/bootloader.c	3;"	d	file:
+F	keystone/ed25519/fe.c	485;"	d	file:
+F	keystone/ed25519/fe.c	517;"	d	file:
+F	keystone/ed25519/verify.c	10;"	d	file:
+F	keystone/ed25519/verify.c	42;"	d	file:
+FE_H	keystone/ed25519/fe.h	2;"	d
+FIXEDINT_H_INCLUDED	keystone/ed25519/fixedint.h	19;"	d
+FIXEDINT_H_INCLUDED	keystone/ed25519/fixedint.h	9;"	d
+GE_H	keystone/ed25519/ge.h	2;"	d
+GIER	src/gpio.h	10;"	d
+GPIO2_DATA	src/gpio.h	8;"	d
+GPIO2_TRI	src/gpio.h	9;"	d
+GPIO_BASE	src/gpio.h	5;"	d
+GPIO_DATA	src/gpio.h	6;"	d
+GPIO_TRI	src/gpio.h	7;"	d
+INCLUDES	Makefile	/^INCLUDES = -I.\/ -I.\/src -I.\/keystone$/;"	m
+INIT	keystone/bootloader.S	/^#define INIT  8$/;"	d
+INT64_C	keystone/ed25519/fixedint.h	52;"	d
+INT64_C	keystone/ed25519/fixedint.h	58;"	d
+INT64_C	keystone/ed25519/fixedint.h	64;"	d
+INT64_C	keystone/ed25519/fixedint.h	70;"	d
+IP_IER	src/gpio.h	11;"	d
+IP_ISR	src/gpio.h	12;"	d
+KECCAKF_ROUNDS	keystone/sha3/sha3.h	11;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -nostdlib -nodefaultlibs -nostartfiles$/;"	m
+MAIN	Makefile	/^MAIN = bootrom_$(XLEN).elf$/;"	m
+MAIN_BIN	Makefile	/^MAIN_BIN = $(MAIN:.elf=.bin)$/;"	m
+MAIN_IMG	Makefile	/^MAIN_IMG = $(MAIN:.elf=.img)$/;"	m
+MAIN_SV	Makefile	/^MAIN_SV = $(MAIN:.elf=.sv)$/;"	m
+MAX_DDR_SIZE_IN_BYTE	src/testDDR.c	16;"	d	file:
+MAX_DDR_SIZE_IN_BYTE	testDDR.c	16;"	d	file:
+MAX_HARTS	src/smp.h	11;"	d
+MCAUSE_EXCEPTION_CODE_ALL_SET_MASK	src/riscv-csr.h	1042;"	d
+MCAUSE_EXCEPTION_CODE_BIT_MASK	src/riscv-csr.h	1041;"	d
+MCAUSE_EXCEPTION_CODE_BIT_OFFSET	src/riscv-csr.h	1039;"	d
+MCAUSE_EXCEPTION_CODE_BIT_WIDTH	src/riscv-csr.h	1040;"	d
+MCAUSE_INTERRUPT_ALL_SET_MASK	src/riscv-csr.h	1038;"	d
+MCAUSE_INTERRUPT_BIT_MASK	src/riscv-csr.h	1037;"	d
+MCAUSE_INTERRUPT_BIT_OFFSET	src/riscv-csr.h	1035;"	d
+MCAUSE_INTERRUPT_BIT_WIDTH	src/riscv-csr.h	1036;"	d
+MCOUNTEREN_CY_ALL_SET_MASK	src/riscv-csr.h	869;"	d
+MCOUNTEREN_CY_BIT_MASK	src/riscv-csr.h	868;"	d
+MCOUNTEREN_CY_BIT_OFFSET	src/riscv-csr.h	866;"	d
+MCOUNTEREN_CY_BIT_WIDTH	src/riscv-csr.h	867;"	d
+MCOUNTEREN_HPM_ALL_SET_MASK	src/riscv-csr.h	881;"	d
+MCOUNTEREN_HPM_BIT_MASK	src/riscv-csr.h	880;"	d
+MCOUNTEREN_HPM_BIT_OFFSET	src/riscv-csr.h	878;"	d
+MCOUNTEREN_HPM_BIT_WIDTH	src/riscv-csr.h	879;"	d
+MCOUNTEREN_IR_ALL_SET_MASK	src/riscv-csr.h	877;"	d
+MCOUNTEREN_IR_BIT_MASK	src/riscv-csr.h	876;"	d
+MCOUNTEREN_IR_BIT_OFFSET	src/riscv-csr.h	874;"	d
+MCOUNTEREN_IR_BIT_WIDTH	src/riscv-csr.h	875;"	d
+MCOUNTEREN_TM_ALL_SET_MASK	src/riscv-csr.h	873;"	d
+MCOUNTEREN_TM_BIT_MASK	src/riscv-csr.h	872;"	d
+MCOUNTEREN_TM_BIT_OFFSET	src/riscv-csr.h	870;"	d
+MCOUNTEREN_TM_BIT_WIDTH	src/riscv-csr.h	871;"	d
+MCOUNTINHIBIT_CY_ALL_SET_MASK	src/riscv-csr.h	678;"	d
+MCOUNTINHIBIT_CY_BIT_MASK	src/riscv-csr.h	677;"	d
+MCOUNTINHIBIT_CY_BIT_OFFSET	src/riscv-csr.h	675;"	d
+MCOUNTINHIBIT_CY_BIT_WIDTH	src/riscv-csr.h	676;"	d
+MCOUNTINHIBIT_HPM_ALL_SET_MASK	src/riscv-csr.h	686;"	d
+MCOUNTINHIBIT_HPM_BIT_MASK	src/riscv-csr.h	685;"	d
+MCOUNTINHIBIT_HPM_BIT_OFFSET	src/riscv-csr.h	683;"	d
+MCOUNTINHIBIT_HPM_BIT_WIDTH	src/riscv-csr.h	684;"	d
+MCOUNTINHIBIT_IR_ALL_SET_MASK	src/riscv-csr.h	682;"	d
+MCOUNTINHIBIT_IR_BIT_MASK	src/riscv-csr.h	681;"	d
+MCOUNTINHIBIT_IR_BIT_OFFSET	src/riscv-csr.h	679;"	d
+MCOUNTINHIBIT_IR_BIT_WIDTH	src/riscv-csr.h	680;"	d
+MIE_MEI_ALL_SET_MASK	src/riscv-csr.h	571;"	d
+MIE_MEI_BIT_MASK	src/riscv-csr.h	570;"	d
+MIE_MEI_BIT_OFFSET	src/riscv-csr.h	568;"	d
+MIE_MEI_BIT_WIDTH	src/riscv-csr.h	569;"	d
+MIE_MSI_ALL_SET_MASK	src/riscv-csr.h	563;"	d
+MIE_MSI_BIT_MASK	src/riscv-csr.h	562;"	d
+MIE_MSI_BIT_OFFSET	src/riscv-csr.h	560;"	d
+MIE_MSI_BIT_WIDTH	src/riscv-csr.h	561;"	d
+MIE_MTI_ALL_SET_MASK	src/riscv-csr.h	567;"	d
+MIE_MTI_BIT_MASK	src/riscv-csr.h	566;"	d
+MIE_MTI_BIT_OFFSET	src/riscv-csr.h	564;"	d
+MIE_MTI_BIT_WIDTH	src/riscv-csr.h	565;"	d
+MIE_PLATFORM_DEFINED_ALL_SET_MASK	src/riscv-csr.h	599;"	d
+MIE_PLATFORM_DEFINED_BIT_MASK	src/riscv-csr.h	598;"	d
+MIE_PLATFORM_DEFINED_BIT_OFFSET	src/riscv-csr.h	596;"	d
+MIE_PLATFORM_DEFINED_BIT_WIDTH	src/riscv-csr.h	597;"	d
+MIE_SEI_ALL_SET_MASK	src/riscv-csr.h	583;"	d
+MIE_SEI_BIT_MASK	src/riscv-csr.h	582;"	d
+MIE_SEI_BIT_OFFSET	src/riscv-csr.h	580;"	d
+MIE_SEI_BIT_WIDTH	src/riscv-csr.h	581;"	d
+MIE_SSI_ALL_SET_MASK	src/riscv-csr.h	575;"	d
+MIE_SSI_BIT_MASK	src/riscv-csr.h	574;"	d
+MIE_SSI_BIT_OFFSET	src/riscv-csr.h	572;"	d
+MIE_SSI_BIT_WIDTH	src/riscv-csr.h	573;"	d
+MIE_STI_ALL_SET_MASK	src/riscv-csr.h	579;"	d
+MIE_STI_BIT_MASK	src/riscv-csr.h	578;"	d
+MIE_STI_BIT_OFFSET	src/riscv-csr.h	576;"	d
+MIE_STI_BIT_WIDTH	src/riscv-csr.h	577;"	d
+MIE_UEI_ALL_SET_MASK	src/riscv-csr.h	595;"	d
+MIE_UEI_BIT_MASK	src/riscv-csr.h	594;"	d
+MIE_UEI_BIT_OFFSET	src/riscv-csr.h	592;"	d
+MIE_UEI_BIT_WIDTH	src/riscv-csr.h	593;"	d
+MIE_USI_ALL_SET_MASK	src/riscv-csr.h	587;"	d
+MIE_USI_BIT_MASK	src/riscv-csr.h	586;"	d
+MIE_USI_BIT_OFFSET	src/riscv-csr.h	584;"	d
+MIE_USI_BIT_WIDTH	src/riscv-csr.h	585;"	d
+MIE_UTI_ALL_SET_MASK	src/riscv-csr.h	591;"	d
+MIE_UTI_BIT_MASK	src/riscv-csr.h	590;"	d
+MIE_UTI_BIT_OFFSET	src/riscv-csr.h	588;"	d
+MIE_UTI_BIT_WIDTH	src/riscv-csr.h	589;"	d
+MIP_MEI_ALL_SET_MASK	src/riscv-csr.h	456;"	d
+MIP_MEI_BIT_MASK	src/riscv-csr.h	455;"	d
+MIP_MEI_BIT_OFFSET	src/riscv-csr.h	453;"	d
+MIP_MEI_BIT_WIDTH	src/riscv-csr.h	454;"	d
+MIP_MSI_ALL_SET_MASK	src/riscv-csr.h	448;"	d
+MIP_MSI_BIT_MASK	src/riscv-csr.h	447;"	d
+MIP_MSI_BIT_OFFSET	src/riscv-csr.h	445;"	d
+MIP_MSI_BIT_WIDTH	src/riscv-csr.h	446;"	d
+MIP_MTI_ALL_SET_MASK	src/riscv-csr.h	452;"	d
+MIP_MTI_BIT_MASK	src/riscv-csr.h	451;"	d
+MIP_MTI_BIT_OFFSET	src/riscv-csr.h	449;"	d
+MIP_MTI_BIT_WIDTH	src/riscv-csr.h	450;"	d
+MIP_PLATFORM_DEFINED_ALL_SET_MASK	src/riscv-csr.h	484;"	d
+MIP_PLATFORM_DEFINED_BIT_MASK	src/riscv-csr.h	483;"	d
+MIP_PLATFORM_DEFINED_BIT_OFFSET	src/riscv-csr.h	481;"	d
+MIP_PLATFORM_DEFINED_BIT_WIDTH	src/riscv-csr.h	482;"	d
+MIP_SEI_ALL_SET_MASK	src/riscv-csr.h	468;"	d
+MIP_SEI_BIT_MASK	src/riscv-csr.h	467;"	d
+MIP_SEI_BIT_OFFSET	src/riscv-csr.h	465;"	d
+MIP_SEI_BIT_WIDTH	src/riscv-csr.h	466;"	d
+MIP_SSI_ALL_SET_MASK	src/riscv-csr.h	460;"	d
+MIP_SSI_BIT_MASK	src/riscv-csr.h	459;"	d
+MIP_SSI_BIT_OFFSET	src/riscv-csr.h	457;"	d
+MIP_SSI_BIT_WIDTH	src/riscv-csr.h	458;"	d
+MIP_STI_ALL_SET_MASK	src/riscv-csr.h	464;"	d
+MIP_STI_BIT_MASK	src/riscv-csr.h	463;"	d
+MIP_STI_BIT_OFFSET	src/riscv-csr.h	461;"	d
+MIP_STI_BIT_WIDTH	src/riscv-csr.h	462;"	d
+MIP_UEI_ALL_SET_MASK	src/riscv-csr.h	480;"	d
+MIP_UEI_BIT_MASK	src/riscv-csr.h	479;"	d
+MIP_UEI_BIT_OFFSET	src/riscv-csr.h	477;"	d
+MIP_UEI_BIT_WIDTH	src/riscv-csr.h	478;"	d
+MIP_USI_ALL_SET_MASK	src/riscv-csr.h	472;"	d
+MIP_USI_BIT_MASK	src/riscv-csr.h	471;"	d
+MIP_USI_BIT_OFFSET	src/riscv-csr.h	469;"	d
+MIP_USI_BIT_WIDTH	src/riscv-csr.h	470;"	d
+MIP_UTI_ALL_SET_MASK	src/riscv-csr.h	476;"	d
+MIP_UTI_BIT_MASK	src/riscv-csr.h	475;"	d
+MIP_UTI_BIT_OFFSET	src/riscv-csr.h	473;"	d
+MIP_UTI_BIT_WIDTH	src/riscv-csr.h	474;"	d
+MSTATUS_MIE_ALL_SET_MASK	src/riscv-csr.h	184;"	d
+MSTATUS_MIE_BIT_MASK	src/riscv-csr.h	183;"	d
+MSTATUS_MIE_BIT_OFFSET	src/riscv-csr.h	181;"	d
+MSTATUS_MIE_BIT_WIDTH	src/riscv-csr.h	182;"	d
+MSTATUS_MPIE_ALL_SET_MASK	src/riscv-csr.h	192;"	d
+MSTATUS_MPIE_BIT_MASK	src/riscv-csr.h	191;"	d
+MSTATUS_MPIE_BIT_OFFSET	src/riscv-csr.h	189;"	d
+MSTATUS_MPIE_BIT_WIDTH	src/riscv-csr.h	190;"	d
+MSTATUS_MPP_ALL_SET_MASK	src/riscv-csr.h	204;"	d
+MSTATUS_MPP_BIT_MASK	src/riscv-csr.h	203;"	d
+MSTATUS_MPP_BIT_OFFSET	src/riscv-csr.h	201;"	d
+MSTATUS_MPP_BIT_WIDTH	src/riscv-csr.h	202;"	d
+MSTATUS_MPRV_ALL_SET_MASK	src/riscv-csr.h	200;"	d
+MSTATUS_MPRV_BIT_MASK	src/riscv-csr.h	199;"	d
+MSTATUS_MPRV_BIT_OFFSET	src/riscv-csr.h	197;"	d
+MSTATUS_MPRV_BIT_WIDTH	src/riscv-csr.h	198;"	d
+MSTATUS_SIE_ALL_SET_MASK	src/riscv-csr.h	188;"	d
+MSTATUS_SIE_BIT_MASK	src/riscv-csr.h	187;"	d
+MSTATUS_SIE_BIT_OFFSET	src/riscv-csr.h	185;"	d
+MSTATUS_SIE_BIT_WIDTH	src/riscv-csr.h	186;"	d
+MSTATUS_SPIE_ALL_SET_MASK	src/riscv-csr.h	196;"	d
+MSTATUS_SPIE_BIT_MASK	src/riscv-csr.h	195;"	d
+MSTATUS_SPIE_BIT_OFFSET	src/riscv-csr.h	193;"	d
+MSTATUS_SPIE_BIT_WIDTH	src/riscv-csr.h	194;"	d
+MSTATUS_SPP_ALL_SET_MASK	src/riscv-csr.h	208;"	d
+MSTATUS_SPP_BIT_MASK	src/riscv-csr.h	207;"	d
+MSTATUS_SPP_BIT_OFFSET	src/riscv-csr.h	205;"	d
+MSTATUS_SPP_BIT_WIDTH	src/riscv-csr.h	206;"	d
+MTVEC_BASE_ALL_SET_MASK	src/riscv-csr.h	313;"	d
+MTVEC_BASE_BIT_MASK	src/riscv-csr.h	312;"	d
+MTVEC_BASE_BIT_OFFSET	src/riscv-csr.h	310;"	d
+MTVEC_BASE_BIT_WIDTH	src/riscv-csr.h	311;"	d
+MTVEC_MODE_ALL_SET_MASK	src/riscv-csr.h	317;"	d
+MTVEC_MODE_BIT_MASK	src/riscv-csr.h	316;"	d
+MTVEC_MODE_BIT_OFFSET	src/riscv-csr.h	314;"	d
+MTVEC_MODE_BIT_WIDTH	src/riscv-csr.h	315;"	d
+NONSMP_HART	src/smp.h	5;"	d
+OBJS_C	Makefile	/^OBJS_C = $(SRCS_C:.c=.o)$/;"	m
+OBJS_S	Makefile	/^OBJS_S = $(SRCS_ASM:.S=.o)$/;"	m
+RISCV_CSR_H	src/riscv-csr.h	10;"	d
+ROTL64	keystone/sha3/sha3.h	15;"	d
+SCAUSE_EXCEPTION_CODE_ALL_SET_MASK	src/riscv-csr.h	1203;"	d
+SCAUSE_EXCEPTION_CODE_BIT_MASK	src/riscv-csr.h	1202;"	d
+SCAUSE_EXCEPTION_CODE_BIT_OFFSET	src/riscv-csr.h	1200;"	d
+SCAUSE_EXCEPTION_CODE_BIT_WIDTH	src/riscv-csr.h	1201;"	d
+SCAUSE_INTERRUPT_ALL_SET_MASK	src/riscv-csr.h	1199;"	d
+SCAUSE_INTERRUPT_BIT_MASK	src/riscv-csr.h	1198;"	d
+SCAUSE_INTERRUPT_BIT_OFFSET	src/riscv-csr.h	1196;"	d
+SCAUSE_INTERRUPT_BIT_WIDTH	src/riscv-csr.h	1197;"	d
+SC_H	keystone/ed25519/sc.h	2;"	d
+SD_CMD_READ_BLOCK_MULTIPLE	src/sd.h	6;"	d
+SD_CMD_STOP_TRANSMISSION	src/sd.h	5;"	d
+SD_COPY_ERROR_CMD18	src/sd.h	8;"	d
+SD_COPY_ERROR_CMD18_CRC	src/sd.h	9;"	d
+SD_DATA_TOKEN	src/sd.h	7;"	d
+SD_INIT_ERROR_ACMD41	src/sd.h	14;"	d
+SD_INIT_ERROR_CMD0	src/sd.h	12;"	d
+SD_INIT_ERROR_CMD8	src/sd.h	13;"	d
+SHA3_H	keystone/sha3/sha3.h	5;"	d
+SIE_SEI_ALL_SET_MASK	src/riscv-csr.h	1611;"	d
+SIE_SEI_BIT_MASK	src/riscv-csr.h	1610;"	d
+SIE_SEI_BIT_OFFSET	src/riscv-csr.h	1608;"	d
+SIE_SEI_BIT_WIDTH	src/riscv-csr.h	1609;"	d
+SIE_SSI_ALL_SET_MASK	src/riscv-csr.h	1603;"	d
+SIE_SSI_BIT_MASK	src/riscv-csr.h	1602;"	d
+SIE_SSI_BIT_OFFSET	src/riscv-csr.h	1600;"	d
+SIE_SSI_BIT_WIDTH	src/riscv-csr.h	1601;"	d
+SIE_STI_ALL_SET_MASK	src/riscv-csr.h	1607;"	d
+SIE_STI_BIT_MASK	src/riscv-csr.h	1606;"	d
+SIE_STI_BIT_OFFSET	src/riscv-csr.h	1604;"	d
+SIE_STI_BIT_WIDTH	src/riscv-csr.h	1605;"	d
+SIE_UEI_ALL_SET_MASK	src/riscv-csr.h	1623;"	d
+SIE_UEI_BIT_MASK	src/riscv-csr.h	1622;"	d
+SIE_UEI_BIT_OFFSET	src/riscv-csr.h	1620;"	d
+SIE_UEI_BIT_WIDTH	src/riscv-csr.h	1621;"	d
+SIE_USI_ALL_SET_MASK	src/riscv-csr.h	1615;"	d
+SIE_USI_BIT_MASK	src/riscv-csr.h	1614;"	d
+SIE_USI_BIT_OFFSET	src/riscv-csr.h	1612;"	d
+SIE_USI_BIT_WIDTH	src/riscv-csr.h	1613;"	d
+SIE_UTI_ALL_SET_MASK	src/riscv-csr.h	1619;"	d
+SIE_UTI_BIT_MASK	src/riscv-csr.h	1618;"	d
+SIE_UTI_BIT_OFFSET	src/riscv-csr.h	1616;"	d
+SIE_UTI_BIT_WIDTH	src/riscv-csr.h	1617;"	d
+SIP_SEI_ALL_SET_MASK	src/riscv-csr.h	1512;"	d
+SIP_SEI_BIT_MASK	src/riscv-csr.h	1511;"	d
+SIP_SEI_BIT_OFFSET	src/riscv-csr.h	1509;"	d
+SIP_SEI_BIT_WIDTH	src/riscv-csr.h	1510;"	d
+SIP_SSI_ALL_SET_MASK	src/riscv-csr.h	1504;"	d
+SIP_SSI_BIT_MASK	src/riscv-csr.h	1503;"	d
+SIP_SSI_BIT_OFFSET	src/riscv-csr.h	1501;"	d
+SIP_SSI_BIT_WIDTH	src/riscv-csr.h	1502;"	d
+SIP_STI_ALL_SET_MASK	src/riscv-csr.h	1508;"	d
+SIP_STI_BIT_MASK	src/riscv-csr.h	1507;"	d
+SIP_STI_BIT_OFFSET	src/riscv-csr.h	1505;"	d
+SIP_STI_BIT_WIDTH	src/riscv-csr.h	1506;"	d
+SIP_UEI_ALL_SET_MASK	src/riscv-csr.h	1524;"	d
+SIP_UEI_BIT_MASK	src/riscv-csr.h	1523;"	d
+SIP_UEI_BIT_OFFSET	src/riscv-csr.h	1521;"	d
+SIP_UEI_BIT_WIDTH	src/riscv-csr.h	1522;"	d
+SIP_USI_ALL_SET_MASK	src/riscv-csr.h	1516;"	d
+SIP_USI_BIT_MASK	src/riscv-csr.h	1515;"	d
+SIP_USI_BIT_OFFSET	src/riscv-csr.h	1513;"	d
+SIP_USI_BIT_WIDTH	src/riscv-csr.h	1514;"	d
+SIP_UTI_ALL_SET_MASK	src/riscv-csr.h	1520;"	d
+SIP_UTI_BIT_MASK	src/riscv-csr.h	1519;"	d
+SIP_UTI_BIT_OFFSET	src/riscv-csr.h	1517;"	d
+SIP_UTI_BIT_WIDTH	src/riscv-csr.h	1518;"	d
+SPI_BASE	src/spi.h	5;"	d
+SPI_CONTROL_REG	src/spi.h	8;"	d
+SPI_INTERRUPT_ENABLE_REG	src/spi.h	17;"	d
+SPI_INTERRUPT_GLOBAL_ENABLE_REG	src/spi.h	15;"	d
+SPI_INTERRUPT_STATUS_REG	src/spi.h	16;"	d
+SPI_RECEIVE_OCCUPANCY	src/spi.h	14;"	d
+SPI_RECEIVE_REG	src/spi.h	11;"	d
+SPI_RESET_REG	src/spi.h	7;"	d
+SPI_SLAVE_SELECT_REG	src/spi.h	12;"	d
+SPI_STATUS_REG	src/spi.h	9;"	d
+SPI_TRANSMIT_OCCUPANCY	src/spi.h	13;"	d
+SPI_TRANSMIT_REG	src/spi.h	10;"	d
+SRCS_ASM	Makefile	/^SRCS_ASM = keystone\/bootloader.S$/;"	m
+SRCS_C	Makefile	/^SRCS_C = src\/uart.c src\/spi.c src\/sd.c src\/gpt.c src\/gpio.c src\/testDDR.c \\$/;"	m
+SSTATUS_SIE_ALL_SET_MASK	src/riscv-csr.h	1282;"	d
+SSTATUS_SIE_BIT_MASK	src/riscv-csr.h	1281;"	d
+SSTATUS_SIE_BIT_OFFSET	src/riscv-csr.h	1279;"	d
+SSTATUS_SIE_BIT_WIDTH	src/riscv-csr.h	1280;"	d
+SSTATUS_SPIE_ALL_SET_MASK	src/riscv-csr.h	1286;"	d
+SSTATUS_SPIE_BIT_MASK	src/riscv-csr.h	1285;"	d
+SSTATUS_SPIE_BIT_OFFSET	src/riscv-csr.h	1283;"	d
+SSTATUS_SPIE_BIT_WIDTH	src/riscv-csr.h	1284;"	d
+SSTATUS_SPP_ALL_SET_MASK	src/riscv-csr.h	1290;"	d
+SSTATUS_SPP_BIT_MASK	src/riscv-csr.h	1289;"	d
+SSTATUS_SPP_BIT_OFFSET	src/riscv-csr.h	1287;"	d
+SSTATUS_SPP_BIT_WIDTH	src/riscv-csr.h	1288;"	d
+STACK_BOTTOM	keystone/bootloader.S	/^#define STACK_BOTTOM  0x83c00000$/;"	d
+STACK_TOP	keystone/bootloader.S	/^#define STACK_TOP     0x84000000$/;"	d
+STVEC_BASE_ALL_SET_MASK	src/riscv-csr.h	1369;"	d
+STVEC_BASE_BIT_MASK	src/riscv-csr.h	1368;"	d
+STVEC_BASE_BIT_OFFSET	src/riscv-csr.h	1366;"	d
+STVEC_BASE_BIT_WIDTH	src/riscv-csr.h	1367;"	d
+STVEC_MODE_ALL_SET_MASK	src/riscv-csr.h	1373;"	d
+STVEC_MODE_BIT_MASK	src/riscv-csr.h	1372;"	d
+STVEC_MODE_BIT_OFFSET	src/riscv-csr.h	1370;"	d
+STVEC_MODE_BIT_WIDTH	src/riscv-csr.h	1371;"	d
+T	keystone/ed25519/ge.h	/^  fe T;$/;"	m	struct:__anon2
+T	keystone/ed25519/ge.h	/^  fe T;$/;"	m	struct:__anon3
+T2d	keystone/ed25519/ge.h	/^  fe T2d;$/;"	m	struct:__anon5
+Template	gen_rom.py	/^from string import Template$/;"	i
+TestDDR	src/testDDR.c	/^uint64_t TestDDR(uint64_t u64_DDRBaseAdd)$/;"	f
+TestDDR	testDDR.c	/^uint64_t TestDDR(uint64_t u64_DDRBaseAdd)$/;"	f
+UART_BASE	src/uart.h	5;"	d
+UART_DLAB_LSB	src/uart.h	16;"	d
+UART_DLAB_MSB	src/uart.h	17;"	d
+UART_FIFO_CONTROL	src/uart.h	11;"	d
+UART_INTERRUPT_ENABLE	src/uart.h	9;"	d
+UART_INTERRUPT_IDENT	src/uart.h	10;"	d
+UART_LINE_CONTROL	src/uart.h	12;"	d
+UART_LINE_STATUS	src/uart.h	14;"	d
+UART_MODEM_CONTROL	src/uart.h	13;"	d
+UART_MODEM_STATUS	src/uart.h	15;"	d
+UART_RBR	src/uart.h	7;"	d
+UART_THR	src/uart.h	8;"	d
+UCAUSE_EXCEPTION_CODE_ALL_SET_MASK	src/riscv-csr.h	2015;"	d
+UCAUSE_EXCEPTION_CODE_BIT_MASK	src/riscv-csr.h	2014;"	d
+UCAUSE_EXCEPTION_CODE_BIT_OFFSET	src/riscv-csr.h	2012;"	d
+UCAUSE_EXCEPTION_CODE_BIT_WIDTH	src/riscv-csr.h	2013;"	d
+UCAUSE_INTERRUPT_ALL_SET_MASK	src/riscv-csr.h	2011;"	d
+UCAUSE_INTERRUPT_BIT_MASK	src/riscv-csr.h	2010;"	d
+UCAUSE_INTERRUPT_BIT_OFFSET	src/riscv-csr.h	2008;"	d
+UCAUSE_INTERRUPT_BIT_WIDTH	src/riscv-csr.h	2009;"	d
+UIE_UEI_ALL_SET_MASK	src/riscv-csr.h	1880;"	d
+UIE_UEI_BIT_MASK	src/riscv-csr.h	1879;"	d
+UIE_UEI_BIT_OFFSET	src/riscv-csr.h	1877;"	d
+UIE_UEI_BIT_WIDTH	src/riscv-csr.h	1878;"	d
+UIE_USI_ALL_SET_MASK	src/riscv-csr.h	1872;"	d
+UIE_USI_BIT_MASK	src/riscv-csr.h	1871;"	d
+UIE_USI_BIT_OFFSET	src/riscv-csr.h	1869;"	d
+UIE_USI_BIT_WIDTH	src/riscv-csr.h	1870;"	d
+UIE_UTI_ALL_SET_MASK	src/riscv-csr.h	1876;"	d
+UIE_UTI_BIT_MASK	src/riscv-csr.h	1875;"	d
+UIE_UTI_BIT_OFFSET	src/riscv-csr.h	1873;"	d
+UIE_UTI_BIT_WIDTH	src/riscv-csr.h	1874;"	d
+UINT64_C	keystone/ed25519/fixedint.h	13;"	d
+UINT64_C	keystone/ed25519/fixedint.h	51;"	d
+UINT64_C	keystone/ed25519/fixedint.h	57;"	d
+UINT64_C	keystone/ed25519/fixedint.h	63;"	d
+UINT64_C	keystone/ed25519/fixedint.h	69;"	d
+UIP_UEI_ALL_SET_MASK	src/riscv-csr.h	1793;"	d
+UIP_UEI_BIT_MASK	src/riscv-csr.h	1792;"	d
+UIP_UEI_BIT_OFFSET	src/riscv-csr.h	1790;"	d
+UIP_UEI_BIT_WIDTH	src/riscv-csr.h	1791;"	d
+UIP_USI_ALL_SET_MASK	src/riscv-csr.h	1785;"	d
+UIP_USI_BIT_MASK	src/riscv-csr.h	1784;"	d
+UIP_USI_BIT_OFFSET	src/riscv-csr.h	1782;"	d
+UIP_USI_BIT_WIDTH	src/riscv-csr.h	1783;"	d
+UIP_UTI_ALL_SET_MASK	src/riscv-csr.h	1789;"	d
+UIP_UTI_BIT_MASK	src/riscv-csr.h	1788;"	d
+UIP_UTI_BIT_OFFSET	src/riscv-csr.h	1786;"	d
+UIP_UTI_BIT_WIDTH	src/riscv-csr.h	1787;"	d
+USTATUS_UIE_ALL_SET_MASK	src/riscv-csr.h	1702;"	d
+USTATUS_UIE_BIT_MASK	src/riscv-csr.h	1701;"	d
+USTATUS_UIE_BIT_OFFSET	src/riscv-csr.h	1699;"	d
+USTATUS_UIE_BIT_WIDTH	src/riscv-csr.h	1700;"	d
+USTATUS_UPIE_ALL_SET_MASK	src/riscv-csr.h	1706;"	d
+USTATUS_UPIE_BIT_MASK	src/riscv-csr.h	1705;"	d
+USTATUS_UPIE_BIT_OFFSET	src/riscv-csr.h	1703;"	d
+USTATUS_UPIE_BIT_WIDTH	src/riscv-csr.h	1704;"	d
+UTVEC_BASE_ALL_SET_MASK	src/riscv-csr.h	2094;"	d
+UTVEC_BASE_BIT_MASK	src/riscv-csr.h	2093;"	d
+UTVEC_BASE_BIT_OFFSET	src/riscv-csr.h	2091;"	d
+UTVEC_BASE_BIT_WIDTH	src/riscv-csr.h	2092;"	d
+UTVEC_MODE_ALL_SET_MASK	src/riscv-csr.h	2098;"	d
+UTVEC_MODE_BIT_MASK	src/riscv-csr.h	2097;"	d
+UTVEC_MODE_BIT_OFFSET	src/riscv-csr.h	2095;"	d
+UTVEC_MODE_BIT_WIDTH	src/riscv-csr.h	2096;"	d
+X	keystone/ed25519/ge.h	/^  fe X;$/;"	m	struct:__anon1
+X	keystone/ed25519/ge.h	/^  fe X;$/;"	m	struct:__anon2
+X	keystone/ed25519/ge.h	/^  fe X;$/;"	m	struct:__anon3
+XLEN	Makefile	/^XLEN ?= 64$/;"	m
+Y	keystone/ed25519/ge.h	/^  fe Y;$/;"	m	struct:__anon1
+Y	keystone/ed25519/ge.h	/^  fe Y;$/;"	m	struct:__anon2
+Y	keystone/ed25519/ge.h	/^  fe Y;$/;"	m	struct:__anon3
+YminusX	keystone/ed25519/ge.h	/^  fe YminusX;$/;"	m	struct:__anon5
+YplusX	keystone/ed25519/ge.h	/^  fe YplusX;$/;"	m	struct:__anon5
+Z	keystone/ed25519/ge.h	/^  fe Z;$/;"	m	struct:__anon1
+Z	keystone/ed25519/ge.h	/^  fe Z;$/;"	m	struct:__anon2
+Z	keystone/ed25519/ge.h	/^  fe Z;$/;"	m	struct:__anon3
+Z	keystone/ed25519/ge.h	/^  fe Z;$/;"	m	struct:__anon5
+__STRING_H__	keystone/string.h	2;"	d
+_dtb	keystone/bootloader.S	/^_dtb:$/;"	l
+_dtb	startup.S	/^_dtb:$/;"	l
+_prog_start	startup.S	/^_prog_start:$/;"	l
+_sanctum_dev_public_key	keystone/test_dev_key.h	/^static const unsigned char _sanctum_dev_public_key[] = {$/;"	v
+_sanctum_dev_public_key	keystone/use_test_keys.h	/^const unsigned char _sanctum_dev_public_key[] = {$/;"	v
+_sanctum_dev_public_key_len	keystone/test_dev_key.h	/^static const size_t _sanctum_dev_public_key_len = 32;$/;"	v
+_sanctum_dev_public_key_len	keystone/use_test_keys.h	/^static const size_t _sanctum_dev_public_key_len = 32;$/;"	v
+_sanctum_dev_secret_key	keystone/test_dev_key.h	/^static const unsigned char _sanctum_dev_secret_key[] = {$/;"	v
+_sanctum_dev_secret_key	keystone/use_test_keys.h	/^const unsigned char _sanctum_dev_secret_key[] = {$/;"	v
+_sanctum_dev_secret_key_len	keystone/test_dev_key.h	/^static const size_t _sanctum_dev_secret_key_len = 64;$/;"	v
+_sanctum_dev_secret_key_len	keystone/use_test_keys.h	/^static const size_t _sanctum_dev_secret_key_len = 64;$/;"	v
+argparse	gen_rom.py	/^import argparse$/;"	i
+attributes	src/gpt.h	/^    uint64_t attributes;$/;"	m	struct:partition_entries
+b	keystone/sha3/sha3.h	/^        uint8_t b[200];                     \/\/ 8-bit bytes$/;"	m	union:__anon6::__anon7
+backup_lba	src/gpt.h	/^    uint64_t backup_lba;$/;"	m	struct:gpt_pth
+base	keystone/ed25519/precomp_data.h	/^static const ge_precomp base[32][8] = {$/;"	v
+bin_to_hex	src/uart.c	/^void bin_to_hex(uint8_t inp, uint8_t res[2])$/;"	f
+bin_to_hex_table	src/uart.c	/^uint8_t bin_to_hex_table[16] = {$/;"	v
+boot	keystone/bootloader.S	/^boot:$/;"	l
+bootloader	keystone/bootloader.c	/^void bootloader() {$/;"	f
+bram_info	write_mmi.tcl	/^proc bram_info {bram type} {$/;"	p
+byte	keystone/bootloader.c	/^typedef unsigned char byte;$/;"	t	file:
+clean_done	keystone/bootloader.S	/^clean_done:$/;"	l
+clean_loop	keystone/bootloader.S	/^clean_loop:$/;"	l
+clear_all_but_sp	keystone/bootloader.S	/^clear_all_but_sp:$/;"	l
+cmov	keystone/ed25519/ge.c	/^static void cmov(ge_precomp *t, const ge_precomp *u, unsigned char b) {$/;"	f	file:
+consttime_equal	keystone/ed25519/verify.c	/^static int consttime_equal(const unsigned char *x, const unsigned char *y) {$/;"	f	file:
+crc16	src/sd.c	/^uint16_t crc16(uint16_t crc, uint8_t data)$/;"	f
+crc7	src/sd.c	/^uint8_t crc7(uint8_t prev, uint8_t in)$/;"	f
+crc_header	src/gpt.h	/^    uint32_t crc_header;$/;"	m	struct:gpt_pth
+crc_partition_entry	src/gpt.h	/^    uint32_t crc_partition_entry;$/;"	m	struct:gpt_pth
+csr_clr_bits_mcause	src/riscv-csr.h	/^static inline void csr_clr_bits_mcause(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_mcounteren	src/riscv-csr.h	/^static inline void csr_clr_bits_mcounteren(uint32_t mask) {$/;"	f
+csr_clr_bits_mcountinhibit	src/riscv-csr.h	/^static inline void csr_clr_bits_mcountinhibit(uint32_t mask) {$/;"	f
+csr_clr_bits_mie	src/riscv-csr.h	/^static inline void csr_clr_bits_mie(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_mip	src/riscv-csr.h	/^static inline void csr_clr_bits_mip(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_mstatus	src/riscv-csr.h	/^static inline void csr_clr_bits_mstatus(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_mtvec	src/riscv-csr.h	/^static inline void csr_clr_bits_mtvec(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_scause	src/riscv-csr.h	/^static inline void csr_clr_bits_scause(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_sie	src/riscv-csr.h	/^static inline void csr_clr_bits_sie(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_sip	src/riscv-csr.h	/^static inline void csr_clr_bits_sip(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_sstatus	src/riscv-csr.h	/^static inline void csr_clr_bits_sstatus(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_stvec	src/riscv-csr.h	/^static inline void csr_clr_bits_stvec(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_ucause	src/riscv-csr.h	/^static inline void csr_clr_bits_ucause(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_uie	src/riscv-csr.h	/^static inline void csr_clr_bits_uie(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_uip	src/riscv-csr.h	/^static inline void csr_clr_bits_uip(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_ustatus	src/riscv-csr.h	/^static inline void csr_clr_bits_ustatus(uint_xlen_t mask) {$/;"	f
+csr_clr_bits_utvec	src/riscv-csr.h	/^static inline void csr_clr_bits_utvec(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_mcause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_mcause(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_mcounteren	src/riscv-csr.h	/^static inline uint32_t csr_read_clr_bits_mcounteren(uint32_t mask) {$/;"	f
+csr_read_clr_bits_mcountinhibit	src/riscv-csr.h	/^static inline uint32_t csr_read_clr_bits_mcountinhibit(uint32_t mask) {$/;"	f
+csr_read_clr_bits_mie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_mie(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_mip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_mip(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_mstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_mstatus(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_mtvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_mtvec(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_scause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_scause(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_sie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_sie(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_sip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_sip(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_sstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_sstatus(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_stvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_stvec(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_ucause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_ucause(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_uie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_uie(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_uip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_uip(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_ustatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_ustatus(uint_xlen_t mask) {$/;"	f
+csr_read_clr_bits_utvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_clr_bits_utvec(uint_xlen_t mask) {$/;"	f
+csr_read_cycle	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_cycle(void) {$/;"	f
+csr_read_cycleh	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_cycleh(void) {$/;"	f
+csr_read_dcsr	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_dcsr(void) {$/;"	f
+csr_read_dpc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_dpc(void) {$/;"	f
+csr_read_dscratch0	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_dscratch0(void) {$/;"	f
+csr_read_dscratch1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_dscratch1(void) {$/;"	f
+csr_read_fcsr	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_fcsr(void) {$/;"	f
+csr_read_fflags	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_fflags(void) {$/;"	f
+csr_read_frm	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_frm(void) {$/;"	f
+csr_read_hcounteren	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hcounteren(void) {$/;"	f
+csr_read_hedeleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hedeleg(void) {$/;"	f
+csr_read_hgatp	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hgatp(void) {$/;"	f
+csr_read_hgeie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hgeie(void) {$/;"	f
+csr_read_hgeip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hgeip(void) {$/;"	f
+csr_read_hideleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hideleg(void) {$/;"	f
+csr_read_hie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hie(void) {$/;"	f
+csr_read_hip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hip(void) {$/;"	f
+csr_read_hpmcounter3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hpmcounter3(void) {$/;"	f
+csr_read_hpmcounter31	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hpmcounter31(void) {$/;"	f
+csr_read_hpmcounter31h	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hpmcounter31h(void) {$/;"	f
+csr_read_hpmcounter3h	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hpmcounter3h(void) {$/;"	f
+csr_read_hpmcounter4	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hpmcounter4(void) {$/;"	f
+csr_read_hpmcounter4h	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hpmcounter4h(void) {$/;"	f
+csr_read_hstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_hstatus(void) {$/;"	f
+csr_read_htimedelta	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_htimedelta(void) {$/;"	f
+csr_read_htimedeltah	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_htimedeltah(void) {$/;"	f
+csr_read_htinst	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_htinst(void) {$/;"	f
+csr_read_htval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_htval(void) {$/;"	f
+csr_read_instret	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_instret(void) {$/;"	f
+csr_read_instreth	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_instreth(void) {$/;"	f
+csr_read_marchid	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_marchid(void) {$/;"	f
+csr_read_mbase	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mbase(void) {$/;"	f
+csr_read_mbound	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mbound(void) {$/;"	f
+csr_read_mcause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mcause(void) {$/;"	f
+csr_read_mcounteren	src/riscv-csr.h	/^static inline uint32_t csr_read_mcounteren(void) {$/;"	f
+csr_read_mcountinhibit	src/riscv-csr.h	/^static inline uint32_t csr_read_mcountinhibit(void) {$/;"	f
+csr_read_mcycle	src/riscv-csr.h	/^static inline uint64_t csr_read_mcycle(void) {$/;"	f
+csr_read_mcycleh	src/riscv-csr.h	/^static inline uint32_t csr_read_mcycleh(void) {$/;"	f
+csr_read_mdbase	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mdbase(void) {$/;"	f
+csr_read_mdbound	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mdbound(void) {$/;"	f
+csr_read_medeleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_medeleg(void) {$/;"	f
+csr_read_mepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mepc(void) {$/;"	f
+csr_read_mhartid	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mhartid(void) {$/;"	f
+csr_read_mhpmcounter3	src/riscv-csr.h	/^static inline uint64_t csr_read_mhpmcounter3(void) {$/;"	f
+csr_read_mhpmcounter31	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mhpmcounter31(void) {$/;"	f
+csr_read_mhpmcounter31h	src/riscv-csr.h	/^static inline uint32_t csr_read_mhpmcounter31h(void) {$/;"	f
+csr_read_mhpmcounter3h	src/riscv-csr.h	/^static inline uint32_t csr_read_mhpmcounter3h(void) {$/;"	f
+csr_read_mhpmcounter4	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mhpmcounter4(void) {$/;"	f
+csr_read_mhpmcounter4h	src/riscv-csr.h	/^static inline uint32_t csr_read_mhpmcounter4h(void) {$/;"	f
+csr_read_mhpmevent3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mhpmevent3(void) {$/;"	f
+csr_read_mhpmevent31	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mhpmevent31(void) {$/;"	f
+csr_read_mhpmevent4	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mhpmevent4(void) {$/;"	f
+csr_read_mibase	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mibase(void) {$/;"	f
+csr_read_mibound	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mibound(void) {$/;"	f
+csr_read_mideleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mideleg(void) {$/;"	f
+csr_read_mie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mie(void) {$/;"	f
+csr_read_mimpid	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mimpid(void) {$/;"	f
+csr_read_minstret	src/riscv-csr.h	/^static inline uint64_t csr_read_minstret(void) {$/;"	f
+csr_read_minstreth	src/riscv-csr.h	/^static inline uint32_t csr_read_minstreth(void) {$/;"	f
+csr_read_mip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mip(void) {$/;"	f
+csr_read_misa	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_misa(void) {$/;"	f
+csr_read_mscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mscratch(void) {$/;"	f
+csr_read_mstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mstatus(void) {$/;"	f
+csr_read_mstatush	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mstatush(void) {$/;"	f
+csr_read_mtinst	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mtinst(void) {$/;"	f
+csr_read_mtval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mtval(void) {$/;"	f
+csr_read_mtval2	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mtval2(void) {$/;"	f
+csr_read_mtvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_mtvec(void) {$/;"	f
+csr_read_mvendorid	src/riscv-csr.h	/^static inline uint32_t csr_read_mvendorid(void) {$/;"	f
+csr_read_pmpaddr0	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpaddr0(void) {$/;"	f
+csr_read_pmpaddr1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpaddr1(void) {$/;"	f
+csr_read_pmpaddr15	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpaddr15(void) {$/;"	f
+csr_read_pmpcfg0	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpcfg0(void) {$/;"	f
+csr_read_pmpcfg1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpcfg1(void) {$/;"	f
+csr_read_pmpcfg2	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpcfg2(void) {$/;"	f
+csr_read_pmpcfg3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_pmpcfg3(void) {$/;"	f
+csr_read_satp	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_satp(void) {$/;"	f
+csr_read_scause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_scause(void) {$/;"	f
+csr_read_scounteren	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_scounteren(void) {$/;"	f
+csr_read_sedeleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sedeleg(void) {$/;"	f
+csr_read_sepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sepc(void) {$/;"	f
+csr_read_set_bits_mcause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_mcause(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_mcounteren	src/riscv-csr.h	/^static inline uint32_t csr_read_set_bits_mcounteren(uint32_t mask) {$/;"	f
+csr_read_set_bits_mcountinhibit	src/riscv-csr.h	/^static inline uint32_t csr_read_set_bits_mcountinhibit(uint32_t mask) {$/;"	f
+csr_read_set_bits_mie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_mie(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_mip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_mip(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_mstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_mstatus(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_mtvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_mtvec(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_scause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_scause(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_sie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_sie(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_sip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_sip(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_sstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_sstatus(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_stvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_stvec(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_ucause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_ucause(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_uie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_uie(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_uip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_uip(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_ustatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_ustatus(uint_xlen_t mask) {$/;"	f
+csr_read_set_bits_utvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_set_bits_utvec(uint_xlen_t mask) {$/;"	f
+csr_read_sideleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sideleg(void) {$/;"	f
+csr_read_sie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sie(void) {$/;"	f
+csr_read_sip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sip(void) {$/;"	f
+csr_read_sscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sscratch(void) {$/;"	f
+csr_read_sstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_sstatus(void) {$/;"	f
+csr_read_stval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_stval(void) {$/;"	f
+csr_read_stvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_stvec(void) {$/;"	f
+csr_read_tdata1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_tdata1(void) {$/;"	f
+csr_read_tdata2	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_tdata2(void) {$/;"	f
+csr_read_tdata3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_tdata3(void) {$/;"	f
+csr_read_time	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_time(void) {$/;"	f
+csr_read_timeh	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_timeh(void) {$/;"	f
+csr_read_tselect	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_tselect(void) {$/;"	f
+csr_read_ucause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_ucause(void) {$/;"	f
+csr_read_uepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_uepc(void) {$/;"	f
+csr_read_uie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_uie(void) {$/;"	f
+csr_read_uip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_uip(void) {$/;"	f
+csr_read_uscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_uscratch(void) {$/;"	f
+csr_read_ustatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_ustatus(void) {$/;"	f
+csr_read_utval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_utval(void) {$/;"	f
+csr_read_utvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_utvec(void) {$/;"	f
+csr_read_vsatp	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vsatp(void) {$/;"	f
+csr_read_vscause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vscause(void) {$/;"	f
+csr_read_vsepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vsepc(void) {$/;"	f
+csr_read_vsie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vsie(void) {$/;"	f
+csr_read_vsip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vsip(void) {$/;"	f
+csr_read_vsscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vsscratch(void) {$/;"	f
+csr_read_vsstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vsstatus(void) {$/;"	f
+csr_read_vstval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vstval(void) {$/;"	f
+csr_read_vstvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_vstvec(void) {$/;"	f
+csr_read_write_dcsr	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_dcsr(uint_xlen_t new_value) {$/;"	f
+csr_read_write_dpc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_dpc(uint_xlen_t new_value) {$/;"	f
+csr_read_write_dscratch0	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_dscratch0(uint_xlen_t new_value) {$/;"	f
+csr_read_write_dscratch1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_dscratch1(uint_xlen_t new_value) {$/;"	f
+csr_read_write_fcsr	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_fcsr(uint_xlen_t new_value) {$/;"	f
+csr_read_write_fflags	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_fflags(uint_xlen_t new_value) {$/;"	f
+csr_read_write_frm	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_frm(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hcounteren	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hcounteren(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hedeleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hedeleg(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hgatp	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hgatp(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hgeie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hgeie(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hideleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hideleg(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hie(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hip(uint_xlen_t new_value) {$/;"	f
+csr_read_write_hstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_hstatus(uint_xlen_t new_value) {$/;"	f
+csr_read_write_htimedelta	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_htimedelta(uint_xlen_t new_value) {$/;"	f
+csr_read_write_htimedeltah	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_htimedeltah(uint_xlen_t new_value) {$/;"	f
+csr_read_write_htinst	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_htinst(uint_xlen_t new_value) {$/;"	f
+csr_read_write_htval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_htval(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mbase	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mbase(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mbound	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mbound(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mcause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mcause(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mcounteren	src/riscv-csr.h	/^static inline uint32_t csr_read_write_mcounteren(uint32_t new_value) {$/;"	f
+csr_read_write_mcountinhibit	src/riscv-csr.h	/^static inline uint32_t csr_read_write_mcountinhibit(uint32_t new_value) {$/;"	f
+csr_read_write_mcycle	src/riscv-csr.h	/^static inline uint64_t csr_read_write_mcycle(uint64_t new_value) {$/;"	f
+csr_read_write_mcycleh	src/riscv-csr.h	/^static inline uint32_t csr_read_write_mcycleh(uint32_t new_value) {$/;"	f
+csr_read_write_mdbase	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mdbase(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mdbound	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mdbound(uint_xlen_t new_value) {$/;"	f
+csr_read_write_medeleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_medeleg(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mepc(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mhpmcounter3	src/riscv-csr.h	/^static inline uint64_t csr_read_write_mhpmcounter3(uint64_t new_value) {$/;"	f
+csr_read_write_mhpmcounter31	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mhpmcounter31(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mhpmcounter31h	src/riscv-csr.h	/^static inline uint32_t csr_read_write_mhpmcounter31h(uint32_t new_value) {$/;"	f
+csr_read_write_mhpmcounter3h	src/riscv-csr.h	/^static inline uint32_t csr_read_write_mhpmcounter3h(uint32_t new_value) {$/;"	f
+csr_read_write_mhpmcounter4	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mhpmcounter4(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mhpmcounter4h	src/riscv-csr.h	/^static inline uint32_t csr_read_write_mhpmcounter4h(uint32_t new_value) {$/;"	f
+csr_read_write_mhpmevent3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mhpmevent3(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mhpmevent31	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mhpmevent31(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mhpmevent4	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mhpmevent4(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mibase	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mibase(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mibound	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mibound(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mideleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mideleg(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mie(uint_xlen_t new_value) {$/;"	f
+csr_read_write_minstret	src/riscv-csr.h	/^static inline uint64_t csr_read_write_minstret(uint64_t new_value) {$/;"	f
+csr_read_write_minstreth	src/riscv-csr.h	/^static inline uint32_t csr_read_write_minstreth(uint32_t new_value) {$/;"	f
+csr_read_write_mip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mip(uint_xlen_t new_value) {$/;"	f
+csr_read_write_misa	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_misa(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mscratch(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mstatus(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mstatush	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mstatush(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mtinst	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mtinst(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mtval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mtval(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mtval2	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mtval2(uint_xlen_t new_value) {$/;"	f
+csr_read_write_mtvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_mtvec(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpaddr0	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpaddr0(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpaddr1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpaddr1(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpaddr15	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpaddr15(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpcfg0	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpcfg0(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpcfg1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpcfg1(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpcfg2	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpcfg2(uint_xlen_t new_value) {$/;"	f
+csr_read_write_pmpcfg3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_pmpcfg3(uint_xlen_t new_value) {$/;"	f
+csr_read_write_satp	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_satp(uint_xlen_t new_value) {$/;"	f
+csr_read_write_scause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_scause(uint_xlen_t new_value) {$/;"	f
+csr_read_write_scounteren	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_scounteren(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sedeleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sedeleg(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sepc(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sideleg	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sideleg(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sie(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sip(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sscratch(uint_xlen_t new_value) {$/;"	f
+csr_read_write_sstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_sstatus(uint_xlen_t new_value) {$/;"	f
+csr_read_write_stval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_stval(uint_xlen_t new_value) {$/;"	f
+csr_read_write_stvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_stvec(uint_xlen_t new_value) {$/;"	f
+csr_read_write_tdata1	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_tdata1(uint_xlen_t new_value) {$/;"	f
+csr_read_write_tdata2	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_tdata2(uint_xlen_t new_value) {$/;"	f
+csr_read_write_tdata3	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_tdata3(uint_xlen_t new_value) {$/;"	f
+csr_read_write_tselect	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_tselect(uint_xlen_t new_value) {$/;"	f
+csr_read_write_ucause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_ucause(uint_xlen_t new_value) {$/;"	f
+csr_read_write_uepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_uepc(uint_xlen_t new_value) {$/;"	f
+csr_read_write_uie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_uie(uint_xlen_t new_value) {$/;"	f
+csr_read_write_uip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_uip(uint_xlen_t new_value) {$/;"	f
+csr_read_write_uscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_uscratch(uint_xlen_t new_value) {$/;"	f
+csr_read_write_ustatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_ustatus(uint_xlen_t new_value) {$/;"	f
+csr_read_write_utval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_utval(uint_xlen_t new_value) {$/;"	f
+csr_read_write_utvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_utvec(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vsatp	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vsatp(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vscause	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vscause(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vsepc	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vsepc(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vsie	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vsie(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vsip	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vsip(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vsscratch	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vsscratch(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vsstatus	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vsstatus(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vstval	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vstval(uint_xlen_t new_value) {$/;"	f
+csr_read_write_vstvec	src/riscv-csr.h	/^static inline uint_xlen_t csr_read_write_vstvec(uint_xlen_t new_value) {$/;"	f
+csr_set_bits_mcause	src/riscv-csr.h	/^static inline void csr_set_bits_mcause(uint_xlen_t mask) {$/;"	f
+csr_set_bits_mcounteren	src/riscv-csr.h	/^static inline void csr_set_bits_mcounteren(uint32_t mask) {$/;"	f
+csr_set_bits_mcountinhibit	src/riscv-csr.h	/^static inline void csr_set_bits_mcountinhibit(uint32_t mask) {$/;"	f
+csr_set_bits_mie	src/riscv-csr.h	/^static inline void csr_set_bits_mie(uint_xlen_t mask) {$/;"	f
+csr_set_bits_mip	src/riscv-csr.h	/^static inline void csr_set_bits_mip(uint_xlen_t mask) {$/;"	f
+csr_set_bits_mstatus	src/riscv-csr.h	/^static inline void csr_set_bits_mstatus(uint_xlen_t mask) {$/;"	f
+csr_set_bits_mtvec	src/riscv-csr.h	/^static inline void csr_set_bits_mtvec(uint_xlen_t mask) {$/;"	f
+csr_set_bits_scause	src/riscv-csr.h	/^static inline void csr_set_bits_scause(uint_xlen_t mask) {$/;"	f
+csr_set_bits_sie	src/riscv-csr.h	/^static inline void csr_set_bits_sie(uint_xlen_t mask) {$/;"	f
+csr_set_bits_sip	src/riscv-csr.h	/^static inline void csr_set_bits_sip(uint_xlen_t mask) {$/;"	f
+csr_set_bits_sstatus	src/riscv-csr.h	/^static inline void csr_set_bits_sstatus(uint_xlen_t mask) {$/;"	f
+csr_set_bits_stvec	src/riscv-csr.h	/^static inline void csr_set_bits_stvec(uint_xlen_t mask) {$/;"	f
+csr_set_bits_ucause	src/riscv-csr.h	/^static inline void csr_set_bits_ucause(uint_xlen_t mask) {$/;"	f
+csr_set_bits_uie	src/riscv-csr.h	/^static inline void csr_set_bits_uie(uint_xlen_t mask) {$/;"	f
+csr_set_bits_uip	src/riscv-csr.h	/^static inline void csr_set_bits_uip(uint_xlen_t mask) {$/;"	f
+csr_set_bits_ustatus	src/riscv-csr.h	/^static inline void csr_set_bits_ustatus(uint_xlen_t mask) {$/;"	f
+csr_set_bits_utvec	src/riscv-csr.h	/^static inline void csr_set_bits_utvec(uint_xlen_t mask) {$/;"	f
+csr_write_dcsr	src/riscv-csr.h	/^static inline void csr_write_dcsr(uint_xlen_t value) {$/;"	f
+csr_write_dpc	src/riscv-csr.h	/^static inline void csr_write_dpc(uint_xlen_t value) {$/;"	f
+csr_write_dscratch0	src/riscv-csr.h	/^static inline void csr_write_dscratch0(uint_xlen_t value) {$/;"	f
+csr_write_dscratch1	src/riscv-csr.h	/^static inline void csr_write_dscratch1(uint_xlen_t value) {$/;"	f
+csr_write_fcsr	src/riscv-csr.h	/^static inline void csr_write_fcsr(uint_xlen_t value) {$/;"	f
+csr_write_fflags	src/riscv-csr.h	/^static inline void csr_write_fflags(uint_xlen_t value) {$/;"	f
+csr_write_frm	src/riscv-csr.h	/^static inline void csr_write_frm(uint_xlen_t value) {$/;"	f
+csr_write_hcounteren	src/riscv-csr.h	/^static inline void csr_write_hcounteren(uint_xlen_t value) {$/;"	f
+csr_write_hedeleg	src/riscv-csr.h	/^static inline void csr_write_hedeleg(uint_xlen_t value) {$/;"	f
+csr_write_hgatp	src/riscv-csr.h	/^static inline void csr_write_hgatp(uint_xlen_t value) {$/;"	f
+csr_write_hgeie	src/riscv-csr.h	/^static inline void csr_write_hgeie(uint_xlen_t value) {$/;"	f
+csr_write_hideleg	src/riscv-csr.h	/^static inline void csr_write_hideleg(uint_xlen_t value) {$/;"	f
+csr_write_hie	src/riscv-csr.h	/^static inline void csr_write_hie(uint_xlen_t value) {$/;"	f
+csr_write_hip	src/riscv-csr.h	/^static inline void csr_write_hip(uint_xlen_t value) {$/;"	f
+csr_write_hstatus	src/riscv-csr.h	/^static inline void csr_write_hstatus(uint_xlen_t value) {$/;"	f
+csr_write_htimedelta	src/riscv-csr.h	/^static inline void csr_write_htimedelta(uint_xlen_t value) {$/;"	f
+csr_write_htimedeltah	src/riscv-csr.h	/^static inline void csr_write_htimedeltah(uint_xlen_t value) {$/;"	f
+csr_write_htinst	src/riscv-csr.h	/^static inline void csr_write_htinst(uint_xlen_t value) {$/;"	f
+csr_write_htval	src/riscv-csr.h	/^static inline void csr_write_htval(uint_xlen_t value) {$/;"	f
+csr_write_mbase	src/riscv-csr.h	/^static inline void csr_write_mbase(uint_xlen_t value) {$/;"	f
+csr_write_mbound	src/riscv-csr.h	/^static inline void csr_write_mbound(uint_xlen_t value) {$/;"	f
+csr_write_mcause	src/riscv-csr.h	/^static inline void csr_write_mcause(uint_xlen_t value) {$/;"	f
+csr_write_mcounteren	src/riscv-csr.h	/^static inline void csr_write_mcounteren(uint_csr32_t value) {$/;"	f
+csr_write_mcountinhibit	src/riscv-csr.h	/^static inline void csr_write_mcountinhibit(uint_csr32_t value) {$/;"	f
+csr_write_mcycle	src/riscv-csr.h	/^static inline void csr_write_mcycle(uint_csr64_t value) {$/;"	f
+csr_write_mcycleh	src/riscv-csr.h	/^static inline void csr_write_mcycleh(uint_csr32_t value) {$/;"	f
+csr_write_mdbase	src/riscv-csr.h	/^static inline void csr_write_mdbase(uint_xlen_t value) {$/;"	f
+csr_write_mdbound	src/riscv-csr.h	/^static inline void csr_write_mdbound(uint_xlen_t value) {$/;"	f
+csr_write_medeleg	src/riscv-csr.h	/^static inline void csr_write_medeleg(uint_xlen_t value) {$/;"	f
+csr_write_mepc	src/riscv-csr.h	/^static inline void csr_write_mepc(uint_xlen_t value) {$/;"	f
+csr_write_mhpmcounter3	src/riscv-csr.h	/^static inline void csr_write_mhpmcounter3(uint_csr64_t value) {$/;"	f
+csr_write_mhpmcounter31	src/riscv-csr.h	/^static inline void csr_write_mhpmcounter31(uint_xlen_t value) {$/;"	f
+csr_write_mhpmcounter31h	src/riscv-csr.h	/^static inline void csr_write_mhpmcounter31h(uint_csr32_t value) {$/;"	f
+csr_write_mhpmcounter3h	src/riscv-csr.h	/^static inline void csr_write_mhpmcounter3h(uint_csr32_t value) {$/;"	f
+csr_write_mhpmcounter4	src/riscv-csr.h	/^static inline void csr_write_mhpmcounter4(uint_xlen_t value) {$/;"	f
+csr_write_mhpmcounter4h	src/riscv-csr.h	/^static inline void csr_write_mhpmcounter4h(uint_csr32_t value) {$/;"	f
+csr_write_mhpmevent3	src/riscv-csr.h	/^static inline void csr_write_mhpmevent3(uint_xlen_t value) {$/;"	f
+csr_write_mhpmevent31	src/riscv-csr.h	/^static inline void csr_write_mhpmevent31(uint_xlen_t value) {$/;"	f
+csr_write_mhpmevent4	src/riscv-csr.h	/^static inline void csr_write_mhpmevent4(uint_xlen_t value) {$/;"	f
+csr_write_mibase	src/riscv-csr.h	/^static inline void csr_write_mibase(uint_xlen_t value) {$/;"	f
+csr_write_mibound	src/riscv-csr.h	/^static inline void csr_write_mibound(uint_xlen_t value) {$/;"	f
+csr_write_mideleg	src/riscv-csr.h	/^static inline void csr_write_mideleg(uint_xlen_t value) {$/;"	f
+csr_write_mie	src/riscv-csr.h	/^static inline void csr_write_mie(uint_xlen_t value) {$/;"	f
+csr_write_minstret	src/riscv-csr.h	/^static inline void csr_write_minstret(uint_csr64_t value) {$/;"	f
+csr_write_minstreth	src/riscv-csr.h	/^static inline void csr_write_minstreth(uint_csr32_t value) {$/;"	f
+csr_write_mip	src/riscv-csr.h	/^static inline void csr_write_mip(uint_xlen_t value) {$/;"	f
+csr_write_misa	src/riscv-csr.h	/^static inline void csr_write_misa(uint_xlen_t value) {$/;"	f
+csr_write_mscratch	src/riscv-csr.h	/^static inline void csr_write_mscratch(uint_xlen_t value) {$/;"	f
+csr_write_mstatus	src/riscv-csr.h	/^static inline void csr_write_mstatus(uint_xlen_t value) {$/;"	f
+csr_write_mstatush	src/riscv-csr.h	/^static inline void csr_write_mstatush(uint_xlen_t value) {$/;"	f
+csr_write_mtinst	src/riscv-csr.h	/^static inline void csr_write_mtinst(uint_xlen_t value) {$/;"	f
+csr_write_mtval	src/riscv-csr.h	/^static inline void csr_write_mtval(uint_xlen_t value) {$/;"	f
+csr_write_mtval2	src/riscv-csr.h	/^static inline void csr_write_mtval2(uint_xlen_t value) {$/;"	f
+csr_write_mtvec	src/riscv-csr.h	/^static inline void csr_write_mtvec(uint_xlen_t value) {$/;"	f
+csr_write_pmpaddr0	src/riscv-csr.h	/^static inline void csr_write_pmpaddr0(uint_xlen_t value) {$/;"	f
+csr_write_pmpaddr1	src/riscv-csr.h	/^static inline void csr_write_pmpaddr1(uint_xlen_t value) {$/;"	f
+csr_write_pmpaddr15	src/riscv-csr.h	/^static inline void csr_write_pmpaddr15(uint_xlen_t value) {$/;"	f
+csr_write_pmpcfg0	src/riscv-csr.h	/^static inline void csr_write_pmpcfg0(uint_xlen_t value) {$/;"	f
+csr_write_pmpcfg1	src/riscv-csr.h	/^static inline void csr_write_pmpcfg1(uint_xlen_t value) {$/;"	f
+csr_write_pmpcfg2	src/riscv-csr.h	/^static inline void csr_write_pmpcfg2(uint_xlen_t value) {$/;"	f
+csr_write_pmpcfg3	src/riscv-csr.h	/^static inline void csr_write_pmpcfg3(uint_xlen_t value) {$/;"	f
+csr_write_satp	src/riscv-csr.h	/^static inline void csr_write_satp(uint_xlen_t value) {$/;"	f
+csr_write_scause	src/riscv-csr.h	/^static inline void csr_write_scause(uint_xlen_t value) {$/;"	f
+csr_write_scounteren	src/riscv-csr.h	/^static inline void csr_write_scounteren(uint_xlen_t value) {$/;"	f
+csr_write_sedeleg	src/riscv-csr.h	/^static inline void csr_write_sedeleg(uint_xlen_t value) {$/;"	f
+csr_write_sepc	src/riscv-csr.h	/^static inline void csr_write_sepc(uint_xlen_t value) {$/;"	f
+csr_write_sideleg	src/riscv-csr.h	/^static inline void csr_write_sideleg(uint_xlen_t value) {$/;"	f
+csr_write_sie	src/riscv-csr.h	/^static inline void csr_write_sie(uint_xlen_t value) {$/;"	f
+csr_write_sip	src/riscv-csr.h	/^static inline void csr_write_sip(uint_xlen_t value) {$/;"	f
+csr_write_sscratch	src/riscv-csr.h	/^static inline void csr_write_sscratch(uint_xlen_t value) {$/;"	f
+csr_write_sstatus	src/riscv-csr.h	/^static inline void csr_write_sstatus(uint_xlen_t value) {$/;"	f
+csr_write_stval	src/riscv-csr.h	/^static inline void csr_write_stval(uint_xlen_t value) {$/;"	f
+csr_write_stvec	src/riscv-csr.h	/^static inline void csr_write_stvec(uint_xlen_t value) {$/;"	f
+csr_write_tdata1	src/riscv-csr.h	/^static inline void csr_write_tdata1(uint_xlen_t value) {$/;"	f
+csr_write_tdata2	src/riscv-csr.h	/^static inline void csr_write_tdata2(uint_xlen_t value) {$/;"	f
+csr_write_tdata3	src/riscv-csr.h	/^static inline void csr_write_tdata3(uint_xlen_t value) {$/;"	f
+csr_write_tselect	src/riscv-csr.h	/^static inline void csr_write_tselect(uint_xlen_t value) {$/;"	f
+csr_write_ucause	src/riscv-csr.h	/^static inline void csr_write_ucause(uint_xlen_t value) {$/;"	f
+csr_write_uepc	src/riscv-csr.h	/^static inline void csr_write_uepc(uint_xlen_t value) {$/;"	f
+csr_write_uie	src/riscv-csr.h	/^static inline void csr_write_uie(uint_xlen_t value) {$/;"	f
+csr_write_uip	src/riscv-csr.h	/^static inline void csr_write_uip(uint_xlen_t value) {$/;"	f
+csr_write_uscratch	src/riscv-csr.h	/^static inline void csr_write_uscratch(uint_xlen_t value) {$/;"	f
+csr_write_ustatus	src/riscv-csr.h	/^static inline void csr_write_ustatus(uint_xlen_t value) {$/;"	f
+csr_write_utval	src/riscv-csr.h	/^static inline void csr_write_utval(uint_xlen_t value) {$/;"	f
+csr_write_utvec	src/riscv-csr.h	/^static inline void csr_write_utvec(uint_xlen_t value) {$/;"	f
+csr_write_vsatp	src/riscv-csr.h	/^static inline void csr_write_vsatp(uint_xlen_t value) {$/;"	f
+csr_write_vscause	src/riscv-csr.h	/^static inline void csr_write_vscause(uint_xlen_t value) {$/;"	f
+csr_write_vsepc	src/riscv-csr.h	/^static inline void csr_write_vsepc(uint_xlen_t value) {$/;"	f
+csr_write_vsie	src/riscv-csr.h	/^static inline void csr_write_vsie(uint_xlen_t value) {$/;"	f
+csr_write_vsip	src/riscv-csr.h	/^static inline void csr_write_vsip(uint_xlen_t value) {$/;"	f
+csr_write_vsscratch	src/riscv-csr.h	/^static inline void csr_write_vsscratch(uint_xlen_t value) {$/;"	f
+csr_write_vsstatus	src/riscv-csr.h	/^static inline void csr_write_vsstatus(uint_xlen_t value) {$/;"	f
+csr_write_vstval	src/riscv-csr.h	/^static inline void csr_write_vstval(uint_xlen_t value) {$/;"	f
+csr_write_vstvec	src/riscv-csr.h	/^static inline void csr_write_vstvec(uint_xlen_t value) {$/;"	f
+current_lba	src/gpt.h	/^    uint64_t current_lba;$/;"	m	struct:gpt_pth
+d	keystone/ed25519/ge.c	/^static const fe d = {$/;"	v	file:
+d2	keystone/ed25519/ge.c	/^static const fe d2 = {$/;"	v	file:
+delay	src/main.bak.c	/^void delay(int count)$/;"	f
+disk_guid	src/gpt.h	/^    uint8_t disk_guid[16];$/;"	m	struct:gpt_pth
+ed25519_create_keypair	keystone/ed25519/keypair.c	/^void ed25519_create_keypair(unsigned char *public_key, unsigned char *private_key, const unsigned char *seed) {$/;"	f
+ed25519_sign	keystone/ed25519/sign.c	/^void ed25519_sign(unsigned char *signature, const unsigned char *message, size_t message_len, const unsigned char *public_key, const unsigned char *private_key) {$/;"	f
+ed25519_verify	keystone/ed25519/verify.c	/^int ed25519_verify(const unsigned char *signature, const unsigned char *message, size_t message_len, const unsigned char *public_key) {$/;"	f
+equal	keystone/ed25519/ge.c	/^static unsigned char equal(signed char b, signed char c) {$/;"	f	file:
+export2sdk	write_mmi.tcl	/^proc export2sdk {} {$/;"	p
+fe	keystone/ed25519/fe.h	/^typedef int32_t fe[10];$/;"	t
+fe_0	keystone/ed25519/fe.c	/^void fe_0(fe h) {$/;"	f
+fe_1	keystone/ed25519/fe.c	/^void fe_1(fe h) {$/;"	f
+fe_add	keystone/ed25519/fe.c	/^void fe_add(fe h, const fe f, const fe g) {$/;"	f
+fe_cmov	keystone/ed25519/fe.c	/^void fe_cmov(fe f, const fe g, unsigned int b) {$/;"	f
+fe_copy	keystone/ed25519/fe.c	/^void fe_copy(fe h, const fe f) {$/;"	f
+fe_cswap	keystone/ed25519/fe.c	/^void fe_cswap(fe f,fe g,unsigned int b) {$/;"	f
+fe_frombytes	keystone/ed25519/fe.c	/^void fe_frombytes(fe h, const unsigned char *s) {$/;"	f
+fe_invert	keystone/ed25519/fe.c	/^void fe_invert(fe out, const fe z) {$/;"	f
+fe_isnegative	keystone/ed25519/fe.c	/^int fe_isnegative(const fe f) {$/;"	f
+fe_isnonzero	keystone/ed25519/fe.c	/^int fe_isnonzero(const fe f) {$/;"	f
+fe_mul	keystone/ed25519/fe.c	/^void fe_mul(fe h, const fe f, const fe g) {$/;"	f
+fe_mul121666	keystone/ed25519/fe.c	/^void fe_mul121666(fe h, fe f) {$/;"	f
+fe_neg	keystone/ed25519/fe.c	/^void fe_neg(fe h, const fe f) {$/;"	f
+fe_pow22523	keystone/ed25519/fe.c	/^void fe_pow22523(fe out, const fe z) {$/;"	f
+fe_sq	keystone/ed25519/fe.c	/^void fe_sq(fe h, const fe f) {$/;"	f
+fe_sq2	keystone/ed25519/fe.c	/^void fe_sq2(fe h, const fe f) {$/;"	f
+fe_sub	keystone/ed25519/fe.c	/^void fe_sub(fe h, const fe f, const fe g) {$/;"	f
+fe_tobytes	keystone/ed25519/fe.c	/^void fe_tobytes(unsigned char *s, const fe h) {$/;"	f
+first_lba	src/gpt.h	/^    uint64_t first_lba;$/;"	m	struct:partition_entries
+first_usable_lba	src/gpt.h	/^    uint64_t first_usable_lba;$/;"	m	struct:gpt_pth
+ge_add	keystone/ed25519/ge.c	/^void ge_add(ge_p1p1 *r, const ge_p3 *p, const ge_cached *q) {$/;"	f
+ge_cached	keystone/ed25519/ge.h	/^} ge_cached;$/;"	t	typeref:struct:__anon5
+ge_double_scalarmult_vartime	keystone/ed25519/ge.c	/^void ge_double_scalarmult_vartime(ge_p2 *r, const unsigned char *a, const ge_p3 *A, const unsigned char *b) {$/;"	f
+ge_frombytes_negate_vartime	keystone/ed25519/ge.c	/^int ge_frombytes_negate_vartime(ge_p3 *h, const unsigned char *s) {$/;"	f
+ge_madd	keystone/ed25519/ge.c	/^void ge_madd(ge_p1p1 *r, const ge_p3 *p, const ge_precomp *q) {$/;"	f
+ge_msub	keystone/ed25519/ge.c	/^void ge_msub(ge_p1p1 *r, const ge_p3 *p, const ge_precomp *q) {$/;"	f
+ge_p1p1	keystone/ed25519/ge.h	/^} ge_p1p1;$/;"	t	typeref:struct:__anon3
+ge_p1p1_to_p2	keystone/ed25519/ge.c	/^void ge_p1p1_to_p2(ge_p2 *r, const ge_p1p1 *p) {$/;"	f
+ge_p1p1_to_p3	keystone/ed25519/ge.c	/^void ge_p1p1_to_p3(ge_p3 *r, const ge_p1p1 *p) {$/;"	f
+ge_p2	keystone/ed25519/ge.h	/^} ge_p2;$/;"	t	typeref:struct:__anon1
+ge_p2_0	keystone/ed25519/ge.c	/^void ge_p2_0(ge_p2 *h) {$/;"	f
+ge_p2_dbl	keystone/ed25519/ge.c	/^void ge_p2_dbl(ge_p1p1 *r, const ge_p2 *p) {$/;"	f
+ge_p3	keystone/ed25519/ge.h	/^} ge_p3;$/;"	t	typeref:struct:__anon2
+ge_p3_0	keystone/ed25519/ge.c	/^void ge_p3_0(ge_p3 *h) {$/;"	f
+ge_p3_dbl	keystone/ed25519/ge.c	/^void ge_p3_dbl(ge_p1p1 *r, const ge_p3 *p) {$/;"	f
+ge_p3_to_cached	keystone/ed25519/ge.c	/^void ge_p3_to_cached(ge_cached *r, const ge_p3 *p) {$/;"	f
+ge_p3_to_p2	keystone/ed25519/ge.c	/^void ge_p3_to_p2(ge_p2 *r, const ge_p3 *p) {$/;"	f
+ge_p3_tobytes	keystone/ed25519/ge.c	/^void ge_p3_tobytes(unsigned char *s, const ge_p3 *h) {$/;"	f
+ge_precomp	keystone/ed25519/ge.h	/^} ge_precomp;$/;"	t	typeref:struct:__anon4
+ge_scalarmult_base	keystone/ed25519/ge.c	/^void ge_scalarmult_base(ge_p3 *h, const unsigned char *a) {$/;"	f
+ge_sub	keystone/ed25519/ge.c	/^void ge_sub(ge_p1p1 *r, const ge_p3 *p, const ge_cached *q) {$/;"	f
+ge_tobytes	keystone/ed25519/ge.c	/^void ge_tobytes(unsigned char *s, const ge_p2 *h) {$/;"	f
+generate_h	gen_rom.py	/^def generate_h(filename, rom):$/;"	f
+generate_sv	gen_rom.py	/^def generate_sv(filename, rom):$/;"	f
+gpt_find_boot_partition	src/gpt.c	/^int gpt_find_boot_partition(uint8_t* dest, uint32_t size)$/;"	f
+gpt_find_boot_partition	src/gpt_1.c	/^int gpt_find_boot_partition(uint8_t* dest, uint32_t size)$/;"	f
+gpt_pth	src/gpt.h	/^typedef struct gpt_pth$/;"	s
+gpt_pth_t	src/gpt.h	/^} gpt_pth_t;$/;"	t	typeref:struct:gpt_pth
+header_size	src/gpt.h	/^    uint32_t header_size; \/\/! little endian, usually 0x5c = 92$/;"	m	struct:gpt_pth
+init_gpio	src/gpio.c	/^void init_gpio()$/;"	f
+init_sd	src/sd.c	/^int init_sd()$/;"	f
+init_uart	src/uart.c	/^void init_uart(uint32_t freq, uint32_t baud)$/;"	f
+int32_t	keystone/ed25519/fixedint.h	/^            typedef signed int int32_t;$/;"	t
+int32_t	keystone/ed25519/fixedint.h	/^            typedef signed long int32_t;$/;"	t
+int32_t	keystone/ed25519/fixedint.h	/^            typedef signed short int32_t;$/;"	t
+int64_t	keystone/ed25519/fixedint.h	/^        __extension__ typedef long long int64_t;$/;"	t
+int64_t	keystone/ed25519/fixedint.h	/^        typedef __int64 int64_t;$/;"	t
+int64_t	keystone/ed25519/fixedint.h	/^        typedef long long int64_t;$/;"	t
+is_transmit_empty	src/uart.c	/^int is_transmit_empty()$/;"	f
+last_lba	src/gpt.h	/^    uint64_t last_lba; \/\/! inclusive$/;"	m	struct:partition_entries
+last_usable_lba	src/gpt.h	/^    uint64_t last_usable_lba;$/;"	m	struct:gpt_pth
+load_3	keystone/ed25519/fe.c	/^static uint64_t load_3(const unsigned char *in) {$/;"	f	file:
+load_3	keystone/ed25519/sc.c	/^static uint64_t load_3(const unsigned char *in) {$/;"	f	file:
+load_4	keystone/ed25519/fe.c	/^static uint64_t load_4(const unsigned char *in) {$/;"	f	file:
+load_4	keystone/ed25519/sc.c	/^static uint64_t load_4(const unsigned char *in) {$/;"	f	file:
+loop	keystone/bootloader.S	/^loop:$/;"	l
+main	gen_rom.py	/^def main():$/;"	f
+main	src/main.bak.c	/^int main()$/;"	f
+main	src/main.c	/^int main() {$/;"	f
+main	src/main.org.c	/^int main()$/;"	f
+main	src/test_csr.c	/^int main(void) {$/;"	f
+mdlen	keystone/sha3/sha3.h	/^    int pt, rsiz, mdlen;                    \/\/ these don't overflow$/;"	m	struct:__anon6
+memcpy	keystone/string.h	/^void* memcpy(void* dest, const void* src, size_t len)$/;"	f
+memset	keystone/string.h	/^void* memset(void* dest, int byte, size_t len)$/;"	f
+name	src/gpt.h	/^    uint8_t name[72]; \/\/! utf16 encoded$/;"	m	struct:partition_entries
+negative	keystone/ed25519/ge.c	/^static unsigned char negative(signed char b) {$/;"	f	file:
+nr_partition_entries	src/gpt.h	/^    uint32_t nr_partition_entries;$/;"	m	struct:gpt_pth
+os	gen_rom.py	/^import os.path$/;"	i
+parse	gen_rom.py	/^def parse():$/;"	f
+partition_entries	src/gpt.h	/^typedef struct partition_entries$/;"	s
+partition_entries_lba	src/gpt.h	/^    uint64_t partition_entries_lba;$/;"	m	struct:gpt_pth
+partition_entries_t	src/gpt.h	/^} partition_entries_t;$/;"	t	typeref:struct:partition_entries
+partition_guid	src/gpt.h	/^    uint8_t partition_guid[16];$/;"	m	struct:partition_entries
+partition_type_guid	src/gpt.h	/^    uint8_t partition_type_guid[16];$/;"	m	struct:partition_entries
+path	gen_rom.py	/^import os.path$/;"	i
+print_status	src/sd.c	/^void print_status(const char *cmd, uint8_t response)$/;"	f
+print_uart	src/uart.c	/^void print_uart(const char *str)$/;"	f
+print_uart_addr	src/uart.c	/^void print_uart_addr(uint64_t addr)$/;"	f
+print_uart_byte	src/uart.c	/^void print_uart_byte(uint8_t byte)$/;"	f
+print_uart_int	src/uart.c	/^void print_uart_int(uint32_t addr)$/;"	f
+pt	keystone/sha3/sha3.h	/^    int pt, rsiz, mdlen;                    \/\/ these don't overflow$/;"	m	struct:__anon6
+q	keystone/sha3/sha3.h	/^        uint64_t q[25];                     \/\/ 64-bit words$/;"	m	union:__anon6::__anon7
+random_byte	keystone/bootloader.c	/^inline byte random_byte(unsigned int i) {$/;"	f
+read_bin	gen_rom.py	/^def read_bin(filename):$/;"	f
+read_gpio	src/gpio.c	/^uint8_t read_gpio(uintptr_t addr)$/;"	f
+read_reg	src/spi.c	/^uint32_t read_reg(uintptr_t addr)$/;"	f
+read_reg_u8	src/uart.c	/^uint8_t read_reg_u8(uintptr_t addr)$/;"	f
+reserved	src/gpt.h	/^    uint32_t reserved; \/\/! must be 0$/;"	m	struct:gpt_pth
+reset	keystone/bootloader.S	/^reset:$/;"	l
+reset_vec	bootrom_32.h	/^uint32_t reset_vec[reset_vec_size] = {$/;"	v
+reset_vec	bootrom_64.h	/^uint32_t reset_vec[reset_vec_size] = {$/;"	v
+reset_vec_size	bootrom_32.h	/^const int reset_vec_size = 1976;$/;"	v
+reset_vec_size	bootrom_64.h	/^const int reset_vec_size = 2138;$/;"	v
+revision	src/gpt.h	/^    uint32_t revision;$/;"	m	struct:gpt_pth
+rsiz	keystone/sha3/sha3.h	/^    int pt, rsiz, mdlen;                    \/\/ these don't overflow$/;"	m	struct:__anon6
+sanctum_sm_size	keystone/bootloader.c	/^unsigned int sanctum_sm_size = 0x1ff000;$/;"	v
+saved_mtvec	src/test_csr.c	/^static volatile uint_xlen_t saved_mtvec;$/;"	v	file:
+sc_muladd	keystone/ed25519/sc.c	/^void sc_muladd(unsigned char *s, const unsigned char *a, const unsigned char *b, const unsigned char *c) {$/;"	f
+sc_reduce	keystone/ed25519/sc.c	/^void sc_reduce(unsigned char *s) {$/;"	f
+sd_acmd41	src/sd.c	/^int sd_acmd41()$/;"	f
+sd_cmd	src/sd.c	/^uint8_t sd_cmd(uint8_t cmd, uint32_t arg, uint8_t crc)$/;"	f
+sd_cmd0	src/sd.c	/^int sd_cmd0()$/;"	f
+sd_cmd55	src/sd.c	/^int sd_cmd55()$/;"	f
+sd_cmd8	src/sd.c	/^int sd_cmd8()$/;"	f
+sd_copy	src/sd.c	/^int sd_copy(void *dst, uint32_t src_lba, uint32_t size)$/;"	f
+sd_dummy	src/sd.c	/^uint8_t sd_dummy()$/;"	f
+select	keystone/ed25519/ge.c	/^static void select(ge_precomp *t, int pos, signed char b) {$/;"	f	file:
+sha3	keystone/sha3/sha3.c	/^void *sha3(const void *in, size_t inlen, void *md, int mdlen)$/;"	f
+sha3_ctx_t	keystone/sha3/sha3.h	/^} sha3_ctx_t;$/;"	t	typeref:struct:__anon6
+sha3_final	keystone/sha3/sha3.c	/^int sha3_final(void *md, sha3_ctx_t *c)$/;"	f
+sha3_init	keystone/sha3/sha3.c	/^int sha3_init(sha3_ctx_t *c, int mdlen)$/;"	f
+sha3_keccakf	keystone/sha3/sha3.c	/^void sha3_keccakf(uint64_t st[25])$/;"	f
+sha3_update	keystone/sha3/sha3.c	/^int sha3_update(sha3_ctx_t *c, const void *data, size_t len)$/;"	f
+signature	src/gpt.h	/^    uint64_t signature;$/;"	m	struct:gpt_pth
+size_partition_entry	src/gpt.h	/^    uint32_t size_partition_entry; \/\/! usually 0x80 = 128$/;"	m	struct:gpt_pth
+slide	keystone/ed25519/ge.c	/^static void slide(signed char *r, const unsigned char *a) {$/;"	f	file:
+smp_pause	src/smp.h	22;"	d
+smp_resume	src/smp.h	29;"	d
+spi_init	src/spi.c	/^void spi_init()$/;"	f
+spi_txrx	src/spi.c	/^uint8_t spi_txrx(uint8_t byte)$/;"	f
+spi_write_bytes	src/spi.c	/^int spi_write_bytes(uint8_t *bytes, uint32_t len, uint8_t *ret)$/;"	f
+sqrtm1	keystone/ed25519/ge.c	/^static const fe sqrtm1 = {$/;"	v	file:
+st	keystone/sha3/sha3.h	/^    } st;$/;"	m	struct:__anon6	typeref:union:__anon6::__anon7
+sys	gen_rom.py	/^import sys$/;"	i
+uint32_t	keystone/ed25519/fixedint.h	/^            typedef unsigned int uint32_t;$/;"	t
+uint32_t	keystone/ed25519/fixedint.h	/^            typedef unsigned long uint32_t;$/;"	t
+uint32_t	keystone/ed25519/fixedint.h	/^            typedef unsigned short uint32_t;$/;"	t
+uint64_t	keystone/ed25519/fixedint.h	/^        __extension__ typedef unsigned long long uint64_t;$/;"	t
+uint64_t	keystone/ed25519/fixedint.h	/^        typedef unsigned __int64 uint64_t;$/;"	t
+uint64_t	keystone/ed25519/fixedint.h	/^        typedef unsigned long long uint64_t;$/;"	t
+uint_csr32_t	src/riscv-csr.h	/^typedef uint32_t uint_csr32_t;$/;"	t
+uint_csr64_t	src/riscv-csr.h	/^typedef uint32_t uint_csr64_t;$/;"	t
+uint_csr64_t	src/riscv-csr.h	/^typedef uint64_t uint_csr64_t;$/;"	t
+uint_xlen_t	src/riscv-csr.h	/^typedef uint32_t uint_xlen_t;$/;"	t
+uint_xlen_t	src/riscv-csr.h	/^typedef uint64_t uint_xlen_t;$/;"	t
+write_gpio	src/gpio.c	/^void write_gpio(uintptr_t addr, uint8_t value)$/;"	f
+write_mmi	write_mmi.tcl	/^proc write_mmi {cell_name} {$/;"	p
+write_reg	src/spi.c	/^void write_reg(uintptr_t addr, uint32_t value)$/;"	f
+write_reg_u8	src/uart.c	/^void write_reg_u8(uintptr_t addr, uint8_t value)$/;"	f
+write_serial	src/uart.c	/^void write_serial(char a)$/;"	f
+xy2d	keystone/ed25519/ge.h	/^  fe xy2d;$/;"	m	struct:__anon4
+yminusx	keystone/ed25519/ge.h	/^  fe yminusx;$/;"	m	struct:__anon4
+yplusx	keystone/ed25519/ge.h	/^  fe yplusx;$/;"	m	struct:__anon4
